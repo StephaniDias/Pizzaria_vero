@@ -1,0 +1,106 @@
+:root {
+    --vermelho: #CD1C18;
+    --vinho: #38000A;
+    --creme: #FFF3E0;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imagens/fundo\ tela.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.login-container {
+    width: 380px;
+    background: var(--branco);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+.logo p {
+    color: #666;
+    padding: 10px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-top: 12px;
+    color: var(--vinho);
+    font-weight: bold;
+}
+
+
+input {
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+input:focus {
+    border-color: var(--vermelho);
+}
+
+
+button {
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: var(--vermelho);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: var(--vinho);
+}
+
+
+a {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--vermelho);
+    text-decoration: none;
+}
+
+
+.cadastro {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}

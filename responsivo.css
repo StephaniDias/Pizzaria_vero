@@ -1,0 +1,21 @@
+@media (max-width:768px){
+
+    .menu, .acoes{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.menu-mobile i{
+    color: #fff;
+}
